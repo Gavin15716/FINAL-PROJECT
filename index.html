@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 <title>Final Project</title>
 <head>
-</head>
+
 <body bgcolor="#1F1F1F">
   
   
@@ -13,11 +13,10 @@
   <div class="Aboutme"><a href="#Aboutme">About Me</a></div>
   <div class="learning"><a href="#learning">Things I learned</a></div>
   </div>
-
   <h3> My Projects</h3>
   <div class="box">
     <div>
-
+</head>
       <h2> Casino Game </h2>
       <p>Casino game made through C++, features a slot machine and coinflip game. Offers a fun way to pass time through playing games, and to see how much money you can get! Created in collaboration with Angel Ho. </p>
       <a href="dummy text">Play It!</a>
@@ -48,7 +47,6 @@
   <h2> Things I learned </h2>
   <p> Throughout this school year, I feel I learned all sorts of skills that can be applicable throughout many different careers related to computer science. From learning the basics of C++, to evolving into more complex projects, I feel as though my problem solving skills have improved from the time before I entered this class. Overall, I believed this class has benefitted me in many ways, and will continue to do so in my future career prospects. </p>
 
-
 </body>
   
   <style>
@@ -65,37 +63,38 @@
     }
     body {
       font-family: 'verdana';
-      background-color::#36454F;
+      background-color:: #36454F; /*Okay I have no idea why, but this stupid background color only works with double colons, I literally tried altering the bgcolor above, but it does not work. And honestly, I am so tired of trying to fix it im just rolling with this weird thing now. */
       
     }
 
     h2 {
       color: #95A1F9;
+       font-family: 'verdana';
     }
 
     p {
       color: #d3d7f5;
       font-size: 21px;
+      font-family: 'verdana';
     }
 
     a {
       color: white;
       font-size: 17px;
+      font-family: 'verdana';
       
     }
 
     h3 {
-      color: #95A1F9;
-      text-align: center;
-      padding: 1rem;
-      border: 2px solid rgb(96, 139, 168);
-      border-radius: 10px;
-      margin-top: 3rem;
-      background-color: rgb(96 139 168 / 0.2);
-      display: flex;
-      justify-content: center;
-      top: 20px;
-      width: 200px;
+  font-family: 'verdana';
+  color: #95A1F9;
+  text-align: center;
+  padding: 1rem;
+  border: 2px solid rgb(96, 139, 168);
+  border-radius: 10px;
+  margin: 3rem auto; 
+  background-color: rgb(96 139 168 / 0.2);
+  width: 200px;
      
     }
 
@@ -119,7 +118,7 @@
     
     #Nav a {
       color: #95A1F9;
-      font-family: 'verdana', serif;
+      font-family: 'verdana';
       text-align: center;
       color: #95A1F9;
       border: 2px solid rgb(96, 139, 168);
@@ -129,6 +128,13 @@
       margin-top: -3em;
       display: flex;
       float: right;
+      
+    }
+    
+    #Nav {
+        font-family: 'verdana', serif;
+    }
   </style>
 </html>
+
 
